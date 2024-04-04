@@ -18,3 +18,44 @@
     border-radius: 5px;
     border: 0;
 }
+.container-fluid{
+    background-color: #000000;
+    color: white;
+    height: 80px;
+    width: 100vw;
+}
+
+#navbar{
+    padding: 0;
+}
+
+#container-fluid>img{
+    position: absolute;
+    left: 5%;
+}
+
+#customer_headline{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#form{
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+
+.form-control{
+    width: 80px;
+}
+
+#customerId{
+    width: 200px;
+}
+
+.mb-3:nth-child(2){
+    position: absolute;
+    bottom:-110%;
+    left: 1.1%;
+}
