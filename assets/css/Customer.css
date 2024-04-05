@@ -94,15 +94,15 @@
 }
 
 #button>button:nth-child(1){
-    background-color: #C08261;
+    background-color: green;
 }
 
 #button>button:nth-child(2){
-    background-color: #C8AE7D;
+    background-color: darkred;
 }
 
 #button>button:nth-child(3){
-    background-color: #BA704F;
+    background-color: darkblue;
 }
 
 .form-label{
