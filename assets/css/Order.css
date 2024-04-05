@@ -1,0 +1,28 @@
+#navbar-nav{
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+#navbar-nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 31px;
+    font-family: 'Inria Sans', sans-serif;;
+    font-weight: 400;
+}
+#navbar-nav>a:last-child>button{
+    height: 46px;
+    width: 203px;
+    font-size: 22px;
+    color: white;
+    background-color: #FF5C8A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.container-fluid{
+    background-color: #000000;
+    color: white;
+    height: 80px;
+    width: 100vw;
+}
