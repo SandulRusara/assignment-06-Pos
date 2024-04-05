@@ -32,6 +32,107 @@
             </div>
         </nav>
     </section>
+
+    <section>
+        <div id="order_headline" class="text-center m-3">
+            <h1>Invoice Details</h1>
+        </div>
+        <div class="row">
+            <div id="form" class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                <form>
+                    <div class="mb-3">
+                        <label for="orderId" class="form-label">Order Id</label>
+                        <input type="number" class="form-control" id="orderId">
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderDate" class="form-label">Order Date</label>
+                        <input type="text" class="form-control" id="orderDate">
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerId" class="form-label">Customer Id</label>
+                        <input type="text" class="form-control" id="customerId">
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerName" class="form-label">Customer Name</label>
+                        <input type="tel" class="form-control" id="customerName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerAddress" class="form-label">Customer Address</label>
+                        <input type="tel" class="form-control" id="customerAddress">
+                    </div>
+                    <div class="mb-3">
+                        <label for="contactNo" class="form-label">Contact No</label>
+                        <input type="tel" class="form-control" id="contactNo">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--<div class="container"></div>-->
+        <h3 id="total">Total :</h3>
+        <div class="discount">
+            <label for="discount" class="form-label">Discount</label>
+            <input type="tel" class="form-control" id="discount">
+        </div>
+        <h3 id="subTotal">Sub Total :</h3>
+        <div class="cash">
+            <label for="cash" class="form-label">Cash</label>
+            <input type="tel" class="form-control" id="cash">
+        </div>
+        <div class="balance">
+            <label for="balance" class="form-label">Balance</label>
+            <input type="tel" class="form-control" id="balance">
+        </div>
+        <button type="button" class="btn btn-primary" id="purchase">Purchase</button>
+
+        <div id="container">
+            <div></div>
+        </div>
+        <section>
+            <div id="selectItem" class="text-center m-3">
+                <h1>Select Items</h1>
+            </div>
+            <div class="row">
+                <div id="form1" class="col col-lg-6 col-md-12 col-sm-12 col-12">
+                    <form id="itemSelect">
+                        <div class="mb-3">
+                            <label for="itemCode" class="form-label">Item Code</label>
+                            <input type="number" class="form-control" id="itemCode">
+                        </div>
+                        <div class="mb-3">
+                            <label for="itemDescription" class="form-label">Item Description</label>
+                            <input type="text" class="form-control" id="itemDescription">
+                        </div>
+                        <div class="mb-3">
+                            <label for="price" class="form-label">Price</label>
+                            <input type="number" class="form-control" id="price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="qty" class="form-label">Qty</label>
+                            <input type="number" class="form-control" id="qty">
+                        </div>
+                        <div class="mb-3">
+                            <label for="orderQty" class="form-label">Order Qty</label>
+                            <input type="number" class="form-control" id="orderQty">
+                        </div>
+                        <button id="addItem" type="button" class="btn btn-primary btn-sm">Add Item</button>
+                    </form>
+                </div>
+            </div>
+            <section id="selectItemTable">
+                <table class="table" id="table">
+                    <thead id="table_head" class="table-light">
+                    <tr>
+                        <th scope="col">Code</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Qty</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </section>
+    </section>
 </main>
 </body>
 </html>
