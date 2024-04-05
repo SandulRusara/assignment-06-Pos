@@ -3,3 +3,75 @@
     right: 0;
 }
 
+
+#navbar-nav>a{
+    text-decoration: none;
+    color: white;
+    font-size: 31px;
+    font-family: 'Inria Sans', sans-serif;;
+    font-weight: 400;
+}
+
+#navbar-nav>a:last-child>button{
+    height: 46px;
+    width: 203px;
+    font-size: 22px;
+    color: white;
+    background-color: #FF5C8A;
+    border-radius: 5px;
+    border: 0;
+}
+
+.container-fluid{
+    background-color: #000000;
+    color: white;
+    height: 80px;
+    width: 100vw;
+}
+
+#navbar{
+    padding: 0;
+}
+
+#container-fluid>img{
+    position: absolute;
+    left: 5%;
+}
+
+#customer_headline{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#form{
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+
+.form-control{
+    width: 80px;
+}
+
+#customerId{
+    width: 200px;
+}
+
+.mb-3:nth-child(2){
+    position: absolute;
+    bottom:-110%;
+    left: 1.1%;
+}
+
+.mb-3:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 55%;
+}
+
+.mb-3:nth-child(4){
+    position: absolute;
+    bottom: -110%;
+    left: 55%;
+}
