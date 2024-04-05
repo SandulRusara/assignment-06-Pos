@@ -133,7 +133,7 @@ hr{
     width: 1000px;
     position: absolute;
     left: 190px;
-    top: 70%;
+    top: 75%;
 }
 
 #table_head>tr>th{
@@ -144,6 +144,7 @@ hr{
     font-weight: 400;
     text-align: center;
     padding: 0;
+
 }
 
 #table_head>tr>th:first-child{
